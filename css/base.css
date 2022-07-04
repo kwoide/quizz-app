@@ -1,3 +1,17 @@
-div {
-  width: ;
+:root {
+  --primary-text-color: rgb(221, 228, 238);
+  --primary-background-color: linear-gradient(
+    290deg,
+    rgba(80, 74, 196, 1) 0%,
+    rgba(134, 134, 230, 1) 70%,
+    rgba(80, 74, 196, 1) 100%
+  );
+  --secondary-color: rgb(231, 130, 48);
+  --icon-color: rgb(221, 228, 238);
+  --icon-bg-color: rgb(36, 43, 62);
+  --bg-color: rgb(221, 228, 238);
+
+  --accent-color: #22b195;
+  --bg-color: whitesmoke;
+  --primary-font-color: whitesmoke;
 }
