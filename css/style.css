@@ -1,5 +1,5 @@
 @import "./base.css";
-@import "_create.css";
+@import "./create.css";
 @import "./reset.css";
 
 .outer-grid {
@@ -67,7 +67,7 @@
   justify-content: space-between;
   position: relative;
   padding: 1em;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--icon-bg-color);
 }
 
 .quiz-card__answer {
@@ -87,8 +87,8 @@
 .quiz-card__bookmark {
   position: absolute;
   font-size: 1.5rem;
-  right: 1em;
-  top: -0.3em;
+  right: 1rem;
+  top: -0.3rem;
   cursor: pointer;
 }
 
@@ -98,11 +98,10 @@
 
 .quiz-card__button {
   border: none;
-  border-radius: 5px;
   padding: 0.75em 1.25em;
   width: max-content;
   align-self: center;
-  background-color: var(--primary-color);
+  background: var(--primary-background-color);
   color: var(--primary-text-color);
   font-weight: bold;
   cursor: pointer;
