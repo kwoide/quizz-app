@@ -1,7 +1,7 @@
-@import "./base.css";
-@import "./create.css";
-@import "./reset.css";
-@import "./components/bookmark.css";
+@import './base.css';
+@import './create.css';
+@import './reset.css';
+@import './components/bookmark.css';
 
 .outer-grid {
   height: 100vh;
