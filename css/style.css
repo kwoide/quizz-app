@@ -1,6 +1,7 @@
 @import "./base.css";
 @import "./create.css";
 @import "./reset.css";
+@import "./components/bookmark.css";
 
 .outer-grid {
   height: 100vh;
@@ -92,6 +93,10 @@
   cursor: pointer;
 }
 
+.bookmark-active {
+  color: tomato;
+}
+
 .quiz-card__question {
   margin: 1em 0em;
 }
@@ -124,7 +129,7 @@
 
 .quiz-card__tag {
   color: var(--primary-color);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0.5em;
 }
 
